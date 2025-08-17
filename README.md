@@ -11,6 +11,7 @@ Sample pictures are from my Pixabay account [Mojpe](https://pixabay.com/users/mo
 
 ## Project Structure
 
+```plaintext
 project-root/
 ├── index.html
 ├── choose.html
@@ -23,14 +24,14 @@ project-root/
 │   ├── sky.jpg
 │   ├── cake.png
 │   ├── sample-images(from1-4).jpg
-│   └── buttons (3psc)-images
+│   └── buttons/   # 3 images inside
 ├── audio/
 │   ├── alarm_sound.mp3
-│   ├── happy_birthday.mp3
+│   └── happy_birthday.mp3
 ├── videos/
 │   ├── sample-video1.mp4
 │   ├── sample-video2.mp4
-│   └──  sample-video3.mp4
+│   └── sample-video3.mp4
 ├── css/
 │   ├── style.css
 │   ├── warning.css
@@ -41,6 +42,7 @@ project-root/
     ├── warning.js
     ├── album.js
     └── choose.js
+
 
 
 ## Pages Overview
