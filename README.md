@@ -1,12 +1,15 @@
-Birthay gift for a parent or someone who told you stories & Slideshow Web Page
+# Birthday Gift: Interactive Story & Slideshow Web Page
 
-1. This project (created as a gift for my mother’s birthday) is a customizable interactive website that combines interactive storytelling, visual slideshows, images, videos, and sound effects into a playful experience. 
-The concept is inspired by childhood stories told by my mother, with raccoons, a snail, and a snake as recurring characters.
-Designed to celebrate her favorite colors (pastel) , love of rainbows, and the beauty of the sky. Every element (from colors to videos) was chosen to evoke joy, nostalgia, and a sense of wonder.
-Originally built in Slovenian. Any leftover Slovenian words you find are just bonus features.
-Sample pictures are from my Pixabay account Mojpe.
+This project was created as a birthday gift for my mother. It is a customizable interactive website that combines storytelling, visual slideshows, images, videos, and sound effects into a playful experience.  
 
-2. Project Structure
+The concept is inspired by childhood stories told by my mother, featuring recurring characters like raccoons, a snail, and a snake. The design celebrates her favorite pastel colors, love of rainbows, and the beauty of the sky. Every element—from colors to videos—was chosen to evoke joy, nostalgia, and a sense of wonder.  
+
+Originally built in Slovenian; any leftover Slovenian words are just bonus features.  
+Sample pictures are from my Pixabay account [Mojpe](https://pixabay.com/users/mojpe-885231/).
+
+---
+
+## Project Structure
 
 project-root/
 ├── index.html
@@ -40,57 +43,59 @@ project-root/
     └── choose.js
 
 
-3. Index Page (index.html)
-Displays a cake image, text, warning and choose a story button, by clicking on cake picture Happy Birthday starts to play.
-Almost everything on a page is changeable.
-From here you can go to Warning (warning.html) or Choose a story (choose.html).
+## Pages Overview
 
-4. Warning (warning.html)
-Clicking the warning button takes you to warning.htlm
-Clicking again triggers an alarm sound (alarm_sound.mp3).
-After the alarm, you’re redirected to the personal album page (album.html).
+### 1. Index Page (`index.html`)
+- Displays a cake image, text, warning, and "Choose a story" button.  
+- Clicking the cake plays "Happy Birthday".  
+- Navigate to Warning (`warning.html`) or Choose a Story (`choose.html`).  
+- Almost everything is customizable.
 
-5. Album Page (album.html)
-Displays a personal photo & video album.
-Includes images, videos, and text. Can be expanded with your own content.
-All assets are replaceable.
-All picture are from my Pixabay account: https://pixabay.com/users/mojpe-885231/
+### 2. Warning (`warning.html`)
+- Clicking the warning button triggers an alarm sound (`alarm_sound.mp3`).  
+- After the alarm, redirects to the personal album page (`album.html`).
 
-6. Choose a story (choose.html)
-From index page by clicking on Choose a story button you land here.
-Contains 3 buttons, each leading to a different story.
-The stories were inspired by bedtime tales told by my mother.
-Each is unique and fully customizable.
-Button pictures are replasable.
-If clicked to story 1 (Racoon story) redirected to story1.html
-If cliked 5 times to Longs snake(story2) redirect to story2.html or 5 times Glass snail (story3) redirect to story3.html 
+### 3. Album Page (`album.html`)
+- Displays a personal photo & video album.  
+- Includes images, videos, and text, all replaceable.  
+- Images sourced from [Pixabay/Mojpe](https://pixabay.com/users/mojpe-885231/).  
 
-7. Story 1 (story1.html)
-Text story with images
-Images are wrapped with text left and right. 
-Center images also.
-Everything is changable and you can add as many text or images as like. Also can make different sequence.
+### 4. Choose a Story (`choose.html`)
+- Accessed from the index page via "Choose a story" button.  
+- Contains 3 buttons, each leading to a different story.  
+- Inspired by bedtime tales told by my mother.  
+- Button images are replaceable.  
+- Story redirects:  
+  - Story 1 (Raccoon) → `story1.html`  
+  - Story 2 (Long Snake) → `story2.html` (after 5 clicks)  
+  - Story 3 (Glass Snail) → `story3.html` (after 5 clicks)
 
-8. Story 2 (story2.html)
-Text-based story with interactive confirmation.
-You need to click a button five times to “really confirm” you want to hear the story.
+### 5. Story 1 (`story1.html`)
+- Text story with images.  
+- Images can be left, right, or center aligned.  
+- Fully customizable, add as much text or images as desired.
 
-9. Story 3 (story3.html)
-Story presented as a video (sample-video1.mp4).
-Same “five-click confirmation” mechanism before entering.
+### 6. Story 2 (`story2.html`)
+- Text-based story with interactive confirmation.  
+- Must click a button five times to confirm viewing the story.
 
-10. Customization
-Everything in this project is made to be changed and add personal touch.
-Replace images in assets/ with your own.
-Replace audio (happy_birthday.mp3, alarm_sound.mp3) with personal sounds.
-Replace videos in videos/.
-Edit CSS files to change the look and feel.
-Add or modify stories in their respective .html files.
+### 7. Story 3 (`story3.html`)
+- Story presented as a video (`sample-video1.mp4`).  
+- Same five-click confirmation mechanism before entry.
 
-11. How to run
-Clone the repository.
-Open index.html in your browser.
-Explore and enjoy the interactive stories and album.
+------- 
 
-12. License
+## Customization
+- Replace images in `assets/` with your own.  
+- Replace audio (`happy_birthday.mp3`, `alarm_sound.mp3`) with personal sounds.  
+- Replace videos in `videos/`.  
+- Edit CSS files to change look and feel.  
+- Add or modify stories in their respective `.html` files.  
+
+## How to Run
+1. Clone the repository.  
+2. Open `index.html` in your browser.  
+3. Explore and enjoy the interactive stories and album.
+
+## License
 This project is open-source. Feel free to modify, expand, and personalize it.
