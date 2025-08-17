@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Surprise Memory Album – A collection of memories just for you.">
+  <title>Surprise Album</title>
+  <link rel="stylesheet" href="css/album.css">
+</head>
+<body>
+
+  <h2>🎬 Surprise Album 🎉</h2>
+  <p>A small collection of memories just for you!</p>
+
+  <div class="slideshow-container">
+    <!-- Video Slide -->
+    <div class="slide">
+      <video controls>
+        <source src="videos/sample-video1.mp4" type="video/mp4">
+      </video>
+      <div class="caption">First video memory</div>
+    </div>
+
+    <!-- Image Slide -->
+    <div class="slide">
+      <img src="assets/sample-image1.jpg" alt="Memory 1">
+      <div class="caption">First photo memory... pictures are from Pixabay from my account: Mojpe. <br>Add your text here, maybe picture description or memory of it.</div>
+    </div>
+
+    <!-- Video Slide -->
+    <div class="slide">
+      <video controls>
+        <source src="videos/sample-video2.mp4" type="video/mp4">
+      </video>
+      <div class="caption">Second video memory-<br>pictures are from Pixabay from my account: Mojpe</div>
+    </div>
+
+    <!-- Image Slide -->
+    <div class="slide">
+      <img src="assets/sample-image2.jpg" alt="Memory 2">
+      <div class="caption">Second photo memory. Add your text here, maybe picture description or memory of it.</div>
+    </div>
+
+ <!-- Image Slide png version -->
+    <div class="slide">
+      <img src="assets/sample-image4.png" alt="Memory 3">
+      <div class="caption">3rd photo memory in png version</div>
+    </div>
+
+    <!-- Navigation buttons -->
+    <a class="nav-btn prev" onclick="changeSlide(-1)">❮</a>
+    <a class="nav-btn next" onclick="changeSlide(1)">❯</a>
+  </div>
+
+  <!-- Dot indicators -->
+  <div class="dot-container"></div>
+
+  <script src="js/album.js"></script>
+</body>
+</html>

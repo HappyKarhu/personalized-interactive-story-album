@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(to right, #FFE6E9, #FFF0E0, #FFFFE6, #E6FFF2, #E6F7FF, #F3E6FF);
+  font-family: 'Playfair Display', sans-serif;
+  text-align: center;
+  padding-top: 150px;
+  color: #d8000c;
+  font-size: 40px;
+  cursor: pointer; 
+}

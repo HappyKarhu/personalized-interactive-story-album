@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background: url('../assets/sky.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Baloo 2', cursive;
+}
+
+h2 {
+  background: linear-gradient(to right, #ff9aa2, #ffcba4, #fff5a2, #b5ead7, #a0d8ef, #d4a5ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 800;
+  font-size: 3em;
+}
+
+.story-button {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 16px;
+  background: linear-gradient(to right,#FFE6E9,#FFF0E0,#FFFFE6,#E6FFF2,#E6F7FF,#F3E6FF);
+  color: #363280;
+  padding: 12px 24px;
+  border: 2px solid #363280;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  gap: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.story-button:hover {
+  transform: scale(1.03);
+  background: linear-gradient(to right, #FFB3BA, #FFDFBA, #FFFFBA, #BAFFC9, #BAE1FF, #E3BAFF);
+  font-weight: bold;
+}
+
+.story-button img {
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#message {
+  margin-top: 25px;
+  font-size: 18px;
+  color: #363280;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+  min-height: 30px;
+}

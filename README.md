@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/21821040/README.md)
 Birthay gift for a parent or someone who told you stories & Slideshow Web Page
 
 1. This project (created as a gift for my mother’s birthday) is a customizable interactive website that combines interactive storytelling, visual slideshows, images, videos, and sound effects into a playful experience. 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Story</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/choose.css">
+</head>
+<body>
+  <h2>Choose one story below:</h2>
+
+  <!-- Raccoon -->
+  <button class="story-button" onclick="goToStory(1)">
+    <img src="assets/raccoon-btn.png" alt="Raccoon" />
+    THE STORY OF THE RACCOON FAMILY
+  </button>
+
+  <!-- Snake -->
+  <button class="story-button" onclick="chooseStory(2)">
+    <img src="assets/snake-btn.png" alt="Snake" />
+    THE STORY OF THE LONG SNAKE
+  </button>
+
+  <!-- Snail -->
+  <button class="story-button" onclick="chooseStory(3)">
+    <img src="assets/snail-btn.png" alt="Snail" />
+    THE STORY OF THE GLASS SNAIL
+  </button>
+
+  <div id="message"></div>
+
+  <script src="js/choose.js"></script>
+</body>
+</html>
