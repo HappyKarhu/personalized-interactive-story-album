@@ -43,7 +43,7 @@ project-root/
     ├── album.js
     └── choose.js
 
-```plaintext
+```
 
 ## Pages Overview
 
